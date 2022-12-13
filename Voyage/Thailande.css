@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+    
+
+}
+
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./536115.jpg) ;
+
+}
+
+
+.logo{
+padding: 0px 20;
+height: 20%;
+border: 1px solid #fff;
+position: absolute;
+top: 10px;
+left: 10px;
+text-transform: none;
+text-decoration: none;
+font-weight: 900;
+}
+img{
+    height: 100%;
+}
+
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+    
+}
+
+.titre h1{
+    color: #fff;
+    font-size: 50px
+
+    
+    
+}
+
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+
+}
+
+.bouton{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: margin-right 2s;
+}
+
+.btn{
+    transition: 00.6s ease;
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+    animation: slideDown 10s;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+@keyframes slideDown{
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+main{
+    background-color: black;
+}
+
+
+.vidéo{
+    animation: slideUp 10s;
+}
+
+@keyframes slideUp{
+    from {
+        transform: translateZ(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+.Presentation p{
+    display: right;
+    text-align: right;
+    margin-top: 0;
+    color: #fff;
+    font-size: x-large;
+
+
+}
+.vidéo h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    
+}
+
+
+
+.Presentation h2{
+    color: #fff;
+    display: right;
+    text-align: right;
+
+}
+
+.pppp{
+    display: flex;
+}
+
+
+
+.carte {
+    color: #fff;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.Temple1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideUp 10s;
+
+}
+.Temple1 h1{
+    color: #fff;
+    font-size: x-large;
+
+}
+
+.Temple1 img{
+    width: 40vw;
+}
+.Temple1 p{
+    color: white;
+    font-size: x-large;
+}
+
+.Temple2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideUp 10s;
+}
+
+.Temple2 h1{
+    color: #fff;
+    font-size: x-large;
+}
+
+.Temple2 p{
+    color: #fff;
+    font-size: x-large;
+}
+
+.Temple3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideUp 10s;
+}
+
+.Temple3 h1{
+    color: #fff;
+    font-size: x-large;
+}
+
+.Temple3 p{
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+}
+
+.nourriture{
+    color: #fff;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.Plats{
+    flex-direction: column;
+}
+.Plats h2{
+    display: flex;
+    color: #fff;
+    font-size: xx-large;
+}
+.Plats img{
+    width: 50vw;
+}
+.Plats p{
+    color: #fff;
+    font-size: x-large;
+    display: flex;
+}
+.Plats img:hover {
+    box-shadow: 0px 0px 15px 15px red;
+}
+
